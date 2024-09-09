@@ -104,11 +104,11 @@ Your journey will take you through the wildness of the American Midwest and acro
 > 🧨 Before you click the "Assessment Complete" button on the Learning Platform, add your answers below for each question and make a commit. It is your option to request a face-to-face meeting with a coach for a vocabulary review.
 
 1. In the **main** module, one of the first lines of code is `const drovers = hireDrovers(cattleToDrive)`. Explain what the value of the `drovers` variable is when that line of code runs.
-   > Your answer here
+   > When the `const drovers = hireDrovers(cattleToDrive)` line of code runs the variable "drovers" now houses the value of the function "hireDrovers" with the argument of "cattleToDrive".
 2. At the bottom of the main module, you will see the following code - `for (const drover of drovers)`. Explain what the values of both the `drover` and the `drovers` variables are.
-   > Your answer here
+   > `for (const drover of drovers)` is a for loop. "drover" is going to hold the current value of each object that it iterated through the loop. "drovers" defines the array of objects that we are fetching from.
 3. In the **journey** module, there is a `journeyMaker()` function. In that function, there is a variable named `areas` which will have the value of an object. Use your debugger to show what the value of each key is on that object. Use [Loom](https://www.loom.com) to record your session.
-   > Your public Loom URL here
+   > [Your public Loom URL here](https://www.loom.com/share/98a9f52fd028479e9bef195f27c00a09)
 4. Also in the **journey** module, there is the following code:
    ```js
    for (let forestNumber = 0; forestNumber < areas.forests; forestNumber++) {
@@ -116,12 +116,11 @@ Your journey will take you through the wildness of the American Midwest and acro
    }
    ```
    Explain this code with your best vocabulary.
-   > Your answer here
+   > this line of code is a for loop. that executes with 3 expressions. it is intialized with the expression "let forestNumber = 0". it then says that it will proceed to loop while forestNumber is less than areas.forests (which has a random numeric value). thus while that is a true statement it will +1 to the forestNumber varible and push the string "forest" to the jorney array.
 5. Explain the value of the `database` variable in the **database** module. Be as comprehensive as possible.
-   > Your answer here
+   > database is an object that houses 2 objects. the first is cattleTypes (can access with database.cattleTypes) which has its own list of objects with the repeating keys of "id" and "breed". the second object in the databases varible is "drovers" which has the keys "id", "first_name", "last_name", and "gender".
 6. In the **drovers** module, there is a `hireDrovers()` function. You will notice the following code on that line - `(herdSize)`. What is that defining, and where does it get its value?
-   > Your answer here
-
+   > the line hireDrovers(herdSize) is a function. herdSize defines the parameter of the function. it it used several times throught the body of the function as a "place holder". herdSize can then get its value by introducting(plugging in) an argument.
 
 ## Final Step
 
